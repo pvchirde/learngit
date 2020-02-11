@@ -1,0 +1,274 @@
+    1  ip -add
+    2  ip add
+    3  clear
+    4  service network restart
+    5  ip add
+    6  reboot
+    7  ip a
+    8  nmtui
+    9  ip a
+   10  ping 8.8.8.8
+   11  ip a
+   12  clear
+   13  ip a
+   14  stop
+   15  turn off
+   16  shutsown
+   17  shutdown
+   18  shutdown -h now
+   19  hostname
+   20  nmtui
+   21  hostname
+   22  cd /home/
+   23  ll
+   24  cd ansible/
+   25  mkdir playbooks
+   26  chown ansible:ansible playbooks/
+   27  ll
+   28  su - ansible
+   29  ssh 172.24.22.30
+   30  su - ansible
+   31  ifconfig
+   32  ip a
+   33  ssh 172.24.22.30
+   34  su - ansible
+   35  yum install epel-release
+   36  yum update repo
+   37  yum update
+   38  scp /etc/sudoers 172.24.22.26:/etc/sudoesr
+   39  ip a
+   40  sudo visudo
+   41  ansible --version
+   42  yum list installed | grep epel-release
+   43  yum install ansible
+   44  ansible --version
+   45  vi /etc/ansible/ansible.cfg 
+   46  ip a
+   47  hostname
+   48  ip a
+   49  hostname
+   50  ip a
+   51  clear
+   52  ip a
+   53  service network restart
+   54  systemctl service network restart
+   55  systemctl network restart
+   56  service network restart
+   57  ip a
+   58  clear
+   59  ip a
+   60  service network restart
+   61  reboot
+   62  vim /etc/ansible/hosts
+   63  clear
+   64  yum install -y wget  
+   65  wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo  
+   66  rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key  
+   67  yum install jenkins  java-1.8.0-openjdk-devel git -y  
+   68  systemctl enable jenkins && systemctl restart jenkins
+   69  systemctl status jenkins
+   70  sudo systemctl enable jenkins
+   71  sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+   72  sudo firewall-cmd --reload
+   73  ip a
+   74  cat /var/lib/jenkins/secrets/initialAdminPassword
+   75  which wget
+   76  apt-get
+   77  yum install
+   78  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+   79  sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   80  sudo apt-get update
+   81  sudo apt-get install jenkins
+   82  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+   83  sudo yum install java-1.8.0-openjdk-devel
+   84  curl --silent --location http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo | sudo tee /etc/yum.repos.d/jenkins.repo
+   85  sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+   86  sudo yum install jenkins
+   87  sudo su # this prevents us from having to issue sudo each time.  
+   88  sudo yum install ant ant-junit
+   89  wich git
+   90  which git
+   91  git login
+   92  git logon
+   93  git --help
+   94  git clone https://github.com/pvchirde/some_code.git
+   95  ls
+   96  cd some_code/
+   97  ls
+   98  which vim
+   99  which ant
+  100  ls /usr/share/
+  101  ls /usr/share/ant/lib
+  102  clear
+  103  ip a-
+  104  ip -a
+  105  ip a
+  106  uname
+  107  uname -a
+  108  cat /etc/os-release 
+  109  yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+  110  yum install yum-utils
+  111  yum-config-manager --disable remi-php54
+  112  yum-config-manager --enable remi-php73
+  113  yum install httpd mariadb mariadb-server php php-common php-mysql php-gd php-xm
+  114  systemctl start mariadb
+  115  mysql_secure_installation
+  116  systemctl enable mariadb
+  117  systemctl start httpd
+  118  systemctl enable httpd
+  119  mysql -u root -p
+  120  cd /tmp && wget http://wordpress.org/latest.tar.gz
+  121  tar -xvzf latest.tar.gz -C /var/www/html
+  122  /var/www/html/wordpress
+  123  chown -R apache /var/www/html/wordpress
+  124  vim /etc/httpd/conf/httpd.conf
+  125  systemctl restart httpd
+  126  ip a
+  127  systemctl restart httpd
+  128  sudo yum install maven
+  129  mvn ––version
+  130  clear
+  131  mvn ––version
+  132  mvn -X
+  133  mvn --version
+  134  sudo yum install java-1.8.0-openjdk
+  135  maven -e
+  136  sudo yum install -y java-1.8.0-openjdk-deve
+  137  sudo yum install -y java-1.8.0-openjdk-devel
+  138  ip a
+  139  /etc/init.d/jenkins status
+  140  ip -a
+  141  ip a
+  142  clear
+  143  ip a
+  144  mysql
+  145  ip a
+  146  clear
+  147  top
+  148  clear
+  149  which maven
+  150  uname
+  151  unamr -r
+  152  unamr
+  153  uname
+  154  uname -r
+  155  cat /etc/os-release 
+  156  mvm --v
+  157  maven --v
+  158  pwd
+  159  sl
+  160  exir
+  161  exit
+  162  ifconfig eth0 192.168.1.10 netmask 255.255.255.0 up
+  163  ip a
+  164  git ls-remote -h https://github.com/pvchirde/terraform_self.git
+  165  clear
+  166  terraform -version
+  167  terraform
+  168  git --version
+  169  cat /etc/os-release 
+  170  sudo yum update
+  171  sudo yum install wget unzip
+  172  wget https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip
+  173  sudo unzip ./terraform_0.11.13_linux_amd64.zip -d /usr/local/bin/
+  174  terraform -v
+  175  wget https://releases.hashicorp.com/terraform/0.12.20/terraform_0.11.13_linux_amd64.zip
+  176  terraform -v
+  177  wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
+  178  ls
+  179  sudo unzip ./terraform_0.12.24_linux_amd64.zip -d /usr/local/bin/
+  180  cd /usr/local/bin/
+  181  ls
+  182  terraform -v
+  183  cd terraform 
+  184  ls
+  185  env
+  186  git status
+  187  git checkout 
+  188  _=/usr/bin/env
+  189  cd /etc/
+  190  terraform -v
+  191  where terraform
+  192  which terraform
+  193  cp /usr/local/bin/terraform /var/lib/jenkins/workspace/terraform/storageacount/rg
+  194  help
+  195  sudo yum update jenkins
+  196  /etc/init.d/jenkins status
+  197  /etc/init.d/jenkins restart
+  198  /etc/init.d/jenkins status
+  199  /etc/init.d/jenkins restart
+  200  ls
+  201  evn
+  202  cat evn
+  203  cd
+  204  cat evn
+  205  evn
+  206  clear
+  207  env
+  208  /usr/bin/
+  209  cd /usr/bin/
+  210  ls
+  211  env
+  212  find terraform /usr/local/bin/
+  213  ls /usr/local/bin/
+  214  clear
+  215  git --version
+  216  git config --list
+  217  git config --list --show-origin
+  218  ld
+  219  ls
+  220  git config --global user.name "prashant chirde"
+  221  git config --global user.email "prashant.chirde@hotmail.com"
+  222  vim
+  223  git config --global core.editor vim
+  224  git config --list
+  225  git config user.name
+  226  sudo apt install git-all
+  227  sudo dnf install git-all
+  228  cat /etc/os-release 
+  229  sudo dnf install git-all
+  230  sudo apt install git-all
+  231  git
+  232  cd /etc/
+  233  ls
+  234  gitcd
+  235  cd
+  236  clear
+  237  git config --list
+  238  git config --list --origin
+  239  git config -l
+  240  git config -l -o
+  241  git config -l --show-origin
+  242  ls
+  243  git init project1
+  244  cd project1/
+  245  ls
+  246  ls -ltr
+  247  man ls
+  248  ls -lrth
+  249  ls -al
+  250  cd .git/
+  251  ls
+  252  ls -lrt
+  253  cat description 
+  254  vim description 
+  255  cat hooks/
+  256  cat HEAD 
+  257  clear
+  258  ls -ltr
+  259  cd libgit2/
+  260  git status
+  261  git log
+  262  git log -p
+  263  git log -p -2
+  264  cd
+  265  ls
+  266  cd project1/
+  267  git log -p
+  268  git log -p -2
+  269  clear
+  270  git log -p -2
+  271  git log --stat
+  272  git log --pretty=online
+  273  git log --pretty=oneline
+  274  history > command.txt
